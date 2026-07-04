@@ -1,3 +1,19 @@
+/*
+===================================================================================
+quality checks
+==================================================================================
+script purppose:
+       this script pperforms quality checks to validate the integrity,consistency,
+and accuracy of the gold layer, these checks ensure:
+     --uniquness of surrogate keys in dimension tables.
+     -refrential integrity between fact and dimensional tables.
+     -validation of relationships in the data model for analyrtical puroses.
+
+usage notes:
+    -run these checks after data loading silver layer.
+    -integrate andresolve any discrepncies found during the checks.
+==================================================================================
+*/
 /*=================================================================================
 quality check for 'rgold.dim_customer'
 ===================================================================================
